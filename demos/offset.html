@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jquery.fixedinside.js demos</title>
+	<link rel="stylesheet" href="css/demo.css" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="../jquery.fixedinside.js"></script>
+	<script>
+		(function (window, $, undefined) {
+
+			$(function () {
+				$('#fixed')
+					.fixedinside({ offsetTop: 100 });
+			});
+
+		})(this, jQuery);
+	</script>
+</head>
+<body>
+<header class="fixed">
+	<h1>jQuery Fixed-inside demo.</h1>
+</header>
+<div id="container" style="margin-top: 200px;">
+	<div id="fixed">.fixedinside(100)</div>
+	<p>固定ヘッダーなどがある場合は、offsetTopオプションを指定することでヘッダーを避けて配置することも出来ます。</p>
+	<p lang="en">You can set offsetTop option to avoid conflicting to fixed header.</p>
+</div>
+<footer>
+	<p><a href="./">fixed-inside</a><a>with offset</a></p>
+</footer>
+</body>
+</html>

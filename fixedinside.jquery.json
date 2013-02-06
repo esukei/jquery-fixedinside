@@ -1,0 +1,23 @@
+{
+	"name": "fixedinside",
+	"title": "jQuery Fixed-inside",
+	"description": "親コンテナに固定表示させることが出来ます。Positioning elements to fixed inside the container.",
+	"keywords": [
+		"position",
+		"fixed"
+	],
+	"version": "0.1.0",
+	"author": {
+		"name": "Satoru Kawahara",
+		"url": "http://blog.s-uni.net/"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/MIT"
+		}
+	],
+	"dependencies": {
+		"jquery": ">=1.8"
+	}
+}

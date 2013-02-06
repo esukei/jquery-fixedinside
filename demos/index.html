@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jquery.fixedinside.js demos</title>
+	<link rel="stylesheet" href="css/demo.css" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="../jquery.fixedinside.js"></script>
+	<script>
+		(function (window, $, undefined) {
+
+			$(function () {
+				$('#fixed')
+					.fixedinside();
+			});
+
+		})(this, jQuery);
+	</script>
+</head>
+<body>
+<header>
+	<h1>jQuery Fixed-inside demo.</h1>
+</header>
+<div id="container">
+	<div id="fixed">.fixedinside()</div>
+	<p>親コンテナの中でのみ固定配置になります。</p>
+	<p lang="en">The element is fixed inside the parent container.</p>
+	<p>画面についてくるサイドメニューなどに便利です。</p>
+	<p lang="en">It's useful to make following side menu.</p>
+	<p>表示される高さが固定要素の高さに足りない場合は固定しません。ブラウザの高さを縮めてお試しください。</p>
+	<p lang="en">If viewport height is not enough showing the fixed element, fixed-inside will be disabled. Change browser height to try.</p>
+	<p>親コンテナの上下paddingが考慮されます。</p>
+	<p lang="en">The parent container's padding affects to the fixed element.</p>
+</div>
+<footer>
+	<p><a>fixed-inside</a><a href="./offset.html">with offset</a></p>
+</footer>
+</body>
+</html>
