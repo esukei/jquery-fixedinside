@@ -1,6 +1,6 @@
 # jquery.fixedinside.js
 
-要素を親コンテナ内で固定表示にすることが出来ます。実際の動きはデモをご覧ください。
+要素を親コンテナ内で固定表示にすることが出来ます。実際の動きはデモをご覧ください。  
 You can fix the element in the parent element. Please see the demo.
 
 ## demos
@@ -60,7 +60,7 @@ Run fixedinside method to the element you want to fixed.
 
 ## options
 
-引数に数値を入力することでオフセット値を指定できます。たとえば、固定されたヘッダーにかぶらなくすることが出来ます。
+引数に数値を入力することでオフセット値を指定できます。たとえば、固定されたヘッダーにかぶらなくすることが出来ます。  
 You can input number to the argument to set offset.
 
     $('#fixed-element')
@@ -69,10 +69,10 @@ You can input number to the argument to set offset.
 
 ## limitation
 
-現バージョンでは、対応している固定位置はtopのみです。
+現バージョンでは、対応している固定位置はtopのみです。  
 At this version, you can fix-inside the element to top of the container.
 
 ## Copyright & LICENSE
 
-Copyright 2013 Satoru Kawahara
+Copyright 2013 Satoru Kawahara  
 [Licensed under MIT.](http://www.opensource.org/licenses/MIT)
