@@ -65,7 +65,7 @@
 				offsetTop: 0
 			};
 
-			_options.extend(options);
+			$.extend(_options, options);
 
 			this
 				.each(function(i) {
